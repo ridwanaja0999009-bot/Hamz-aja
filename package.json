@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-bot-api",
+  "version": "1.0.0",
+  "description": "API untuk WhatsApp Bot - Kirim Email",
+  "type": "module",
+  "scripts": {
+    "start": "node send-email.js" 
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.15"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
